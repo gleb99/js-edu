@@ -1,0 +1,777 @@
+* { 
+	box-sizing: border-box;
+	margin: 0;
+	}
+
+	@font-face {
+    font-family: Rubik;
+		src: url(fonts/Rubik-Medium.ttf);
+   }
+
+
+body {
+		background-color: grey;
+}
+
+												/* Mobile */
+
+@media screen and (max-width: 1022px) {
+
+												/* header */
+
+		header {
+			height: 72vw;
+			background-image: url(images/back-mobile.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.menu {
+			display: block;
+			float: left;
+			padding-top: 26px;
+			padding-left: 6vw;
+			
+		}
+		.search {
+			display: block;
+			float: right;
+			padding-top: 26px;
+			padding-right: 6vw;
+
+		}
+		.Google {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 36vw;
+		}
+
+														/* main */
+
+		.images {
+			padding-top: 10vw;
+			padding-bottom: 6vw;
+		}
+
+		.electronics {
+			background: #4285F4;
+			height: 75vw;
+		}
+		.power {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.computers {
+			background: #F44242;;
+			height: 75vw;
+		}
+		.battery {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.tech {
+			background: #4285F4;
+			height: 75vw;
+		}
+		.generator {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.repair {
+			background: #F44242;
+			height: 75vw;
+		}
+		.frame {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.home {
+			background: #4285F4;
+			height: 75vw;
+		}
+		.airbrush {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.auto {
+			background: #F44242;
+			height: 60vw;
+		}
+		.tools {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.up_bar {
+			height: 31vw;
+			background-color: #fff;
+		}
+		.up {
+			display: block;	
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 10vw;
+		}
+		h6 {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 5vw;
+			line-height: 21px;
+			text-align: center;
+			text-transform: uppercase;
+			color: #FFFFFF;
+			padding-bottom: 9vw;
+			}
+		p {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 4vw;
+			line-height: 17px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+			text-align: center;
+			word-spacing: 15vw;
+		}
+		.up {
+			padding-bottom: 2vw;
+			width: 3vw;
+		}
+		.up_bar p {
+			color: #34363B;
+		}
+
+													/* footer */
+
+		footer {
+			height: 33vw;
+			background-color:#F5F6F7;
+		}
+		footer p {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 4vw;
+			line-height: 17px;
+			color: rgba(52, 54, 59, 0.8);
+			word-spacing: initial;
+			text-transform: none;
+		}
+		.footer1 {
+			padding-top: 9vw;
+			padding-bottom: 3vw;
+		}
+		.centr_text {
+			display: none;
+		}
+		.menu2, .search2, .Google2, .footr1, .footr2, .footr3 {
+			display: none;
+		}
+
+}
+
+												/* Tablet */
+
+@media screen and (min-width: 1023px) and (max-width: 1918px) {
+	.wrapper {
+		height: 100vh;
+		background-image: url(images/back-tablet.jpg) ;
+		background-repeat: repeat;
+		background-size: cover;
+	}
+
+												/* header */
+
+	header {
+		display: flex;
+		height: 18vw;
+	}
+	.menu, .search, .Google {
+		display: none;
+	}
+	.menu2 {
+		float: right;
+		padding-top: 30px;
+		padding-right: 58px;
+		padding-left: 36px;
+	}
+	.search2 {
+		float: right;
+		padding-top: 30px; 
+	}
+	.Google2 {
+		padding-top: 30px;
+		padding-left: 28px;;
+	}
+	.centr_text {
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 17px;
+		color: #FFFFFF;
+		text-align: center;
+		padding-top: 30px;
+		word-spacing: 10px;
+	}
+	.hr1, .hr2, .hr3 {
+		width: 33.333vw;
+		border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+		border-left: 2px solid rgba(255, 255, 255, 0.1);
+	}
+	span {
+		word-spacing: initial;
+	}
+
+													/* main */
+
+	main {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.electronics, .computers, .tech, .repair, .home, .auto {
+		display: flex;
+		width: 33.333vw;
+		height: 18.7vw;
+		align-items: center;
+		padding-left: 28px;
+		border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+		border-left: 2px solid rgba(255, 255, 255, 0.1);
+	}
+	.up_bar {
+		display: none;
+	}
+	.images {
+		display: none;
+	}
+  p.how {
+display: none;
+	}
+	h6 {
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		}
+
+													/* footer */
+		footer {
+			display: flex;
+			height: 18vw;
+			align-items: flex-end;
+		}
+		.footer1, .footer2 {
+			display: none;
+		}
+		.footr1, .footr2, .footr3 {
+			display: flex;
+			align-items: flex-end;
+			width: 33.333vw;
+			height: 18.7vw;
+			padding-bottom: 8px;
+			padding-left: 28px;
+		border-left: 2px solid rgba(255, 255, 255, 0.1);
+		}
+		.footr3 {
+			justify-content: flex-end;
+			padding-right: 28px;
+		}
+		p.fr1 {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 20px;
+			color: rgba(255, 255, 255, 0.4);
+		}
+		p.fr3 {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 17px;
+			color: rgba(255, 255, 255, 0.4);
+		}
+
+											/* electronics_hover */
+		.electronics:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.electronics:hover {
+			background-color: #4285F4;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.electronics:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 17px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.electronics:hover h6 {
+			position: absolute;
+			top: 4.6vw;
+		}
+		.electronics:hover span.el {
+			position: relative;
+			top: 25px;
+			right: 58px;
+		}
+
+												/* computers_hover */
+		.computers:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.computers:hover {
+			background-color: #F44242;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.computers:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 17px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.computers:hover h6 {
+			position: absolute;
+			top: 4.6vw;
+		}
+		.computers:hover span.xp {
+			position: relative;
+			top: 25px;
+			right: 28px;
+		}
+												/* tech_hover */
+		.tech:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.tech:hover {
+			background-color: #4285F4;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.tech:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 17px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.tech:hover h6 {
+			position: absolute;
+			top: 4.6vw;
+		}
+												/* repair_hover */
+		.repair:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.repair:hover {
+			background-color: #F44242;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.repair:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 17px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.repair:hover h6 {
+			position: absolute;
+			top: 4.6vw;
+		}
+												/* home_hover */
+		.home:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.home:hover {
+			background-color: #4285F4;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.home:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 17px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.home:hover h6 {
+			position: absolute;
+			top: 4.6vw;
+		}
+		.home:hover span.bosch {
+			position: relative;
+			top: 25px;
+			right: 38px;
+		}
+												/* auto_hover */
+		.auto:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.auto:hover {
+			background-color:  #F44242;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.auto:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 17px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+}
+														/* desktop */
+
+	@media screen and (min-width: 1919px) {
+		.wrapper {
+			height: 76vw;
+			background-image: url(images/back-desktop.jpg) ;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+												/* header */
+		header {
+			display: flex;
+			height: 12.2vw;
+		}
+		.menu, .search, .Google {
+			display: none;
+		}
+		.menu2 {
+			float: right;
+			padding-top: 30px;
+			padding-right: 68px;
+			padding-left: 36px;
+		}
+		.search2 {
+			float: right;
+			padding-top: 30px; 
+		}
+		.Google2 {
+			padding-top: 30px;
+			padding-left: 68px;;
+		}
+		.centr_text {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 23px;
+			color: #FFFFFF;
+			text-align: center;
+			padding-top: 30px;
+			word-spacing: 10px;
+		}
+		.hr1, .hr2, .hr3 {
+			width: 33vw;
+			border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+			border-left: 2px solid rgba(255, 255, 255, 0.1);
+		}
+		span {
+			word-spacing: initial;
+		}
+		
+													/* main */
+
+	main {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.electronics, .computers, .tech, .repair, .home, .auto {
+		display: flex;
+		width: 33vw;
+		height: 12.2vw;
+		align-items: center;
+		padding-left: 68px;
+		border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+		border-left: 2px solid rgba(255, 255, 255, 0.1);
+	}
+	.up_bar {
+		display: none;
+	}
+	.images {
+		display: none;
+	}
+  p.how {
+display: none;
+	}
+	h6 {
+		font-family: Rubik;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 34px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		}
+														/* footer */
+		footer {
+			display: flex;
+			height: 12.2vw;
+			align-items: flex-end;
+		}
+		.footer1, .footer2 {
+			display: none;
+		}
+		.footr1, .footr2, .footr3 {
+			display: flex;
+			align-items: flex-end;
+			width: 33vw;
+			height: 12.2vw;
+			padding-bottom: 8px;
+			padding-left: 68px;
+		border-left: 2px solid rgba(255, 255, 255, 0.1);
+		}
+		.footr3 {
+			justify-content: flex-end;
+			padding-right: 68px;
+		}
+		p.fr1 {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 17px;
+			color: rgba(255, 255, 255, 0.4);
+		}
+		p.fr3 {
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 17px;
+			color: rgba(255, 255, 255, 0.4);
+		}
+													/* electronics_hover */
+		.electronics:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.electronics:hover {
+			background-color: #4285F4;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.electronics:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 23px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.electronics:hover h6 {
+			position: absolute;
+			bottom: 7.6vw;
+		}
+		.electronics:hover span.el {
+			position: relative;
+			top: 30px;
+			right:58px;
+		}
+													/* computers_hover */
+		.computers:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.computers:hover {
+			background-color: #F44242;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.computers:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 23px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.computers:hover h6 {
+			position: absolute;
+			top: 2.6vw;
+		}
+		.computers:hover span.xp {
+			position: relative;
+			top: 30px;
+			right: 39px;
+		}
+														/* tech_hover */
+		.tech:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.tech:hover {
+			background-color: #4285F4;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.tech:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 23px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.tech:hover h6 {
+			position: absolute;
+			top: 2.6vw;
+		}
+													/* repair_hover */
+		.repair:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.repair:hover {
+			background-color: #F44242;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.repair:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 23px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.repair:hover h6 {
+			position: absolute;
+			top: 2.6vw;
+		}
+														/* home_hover */
+		.home:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.home:hover {
+			background-color: #4285F4;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.home:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 23px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+		.home:hover h6 {
+			position: absolute;
+			top: 2.6vw;
+		}
+		.home:hover span.bosch {
+			position: relative;
+			top: 25px;
+			right: 51px;
+		}
+												/* auto_hover */
+		.auto:hover .images{
+			display: block;
+			order: 2;
+			padding-right: 2vw;
+		}
+		.auto:hover {
+			background-color:  #F44242;
+			transition: 0.5s linear;
+			justify-content: space-between;
+			position: relative;
+		}
+		.auto:hover .how{
+			display: inline;
+			font-family: Rubik;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 23px;
+			color: #FFFFFF;
+			position: relative;
+			bottom: 3px;
+		}
+	}
